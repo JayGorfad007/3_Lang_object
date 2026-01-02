@@ -1,3 +1,5 @@
+// first lacture 9-12-25
+
 #include<stdio.h>  //# --> pre processor  |  include--> directive
 #include<conio.h>
 #include<process.h>
