@@ -1,4 +1,4 @@
-/*             29-12-25 Second_Lac                            */ 
+/*             29-12-25 Third_Lac                            */ 
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -17,9 +17,12 @@ int main()
     {
         len++;
     }
+    printf("\nName length : %d\n",len);
 
-    printf("\nName length : %d",len);
-
+    for(i=(len-1); i>=0; i--)
+    {
+        printf("%c",name[i]);
+    }
     return 0;
 
 }
