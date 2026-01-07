@@ -1,4 +1,4 @@
-/*             29-12-25 Third_Lac                            */ 
+/*             29-12-25 Third_Lacture                           */ 
 #include<stdio.h>
 #include<string.h>
 int main()
