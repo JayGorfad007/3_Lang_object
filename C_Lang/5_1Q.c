@@ -1,8 +1,8 @@
 /*
 
                                                     Author-:Jay Gorfad
-                                                    Doc-:15-12 Oct 2025
-                                                    Objective-:To Create a class
+                                                    Doc-:18-12 Oct 2025
+                                                    Objective-:To Create a 3 star-triangles side-by-side 
                                                     Lacture-:5
 
                                                   
