@@ -1,7 +1,7 @@
 /*
 
                                                     Author-:Jay Gorfad
-                                                    Doc-:15-12 Oct 2025
+                                                    Doc-:18-12 Oct 2025
                                                     Objective-:To Create 3 star-triangles side-by-side  -> Short Cut
                                                     Lacture-:5
 
