@@ -35,6 +35,7 @@ Exit Controlled Loop
 
 #include<stdio.h>
 #include<conio.h>
+// -> #include<DOS.h>  what is header file shearch
 int main()
 {
   
@@ -43,6 +44,7 @@ int main()
 
     for(i=0; i<25; i++)
     {
+   // ->     textbackground(CYAN); 
         textcolor(i);
         gotoxy(5,i+1);
         sound(200);
