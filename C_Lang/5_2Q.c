@@ -8,45 +8,6 @@
                                                   
 */
 
-#include<stdio.h>
-int main()
-{
- 
-    int i,j,l;
-
-    for(i=1; i<=5; i++){
-      for(l=1; l<=3; l++){
-        if(l==1){
-            printf("\033[31m");
-        }else if(l==2){
-            printf("\033[32m");
-        }else if(l==3){
-            printf("\033[33m");
-        }
-        for(j=1; j<=i; j++){
-            printf("*");
-        }
-        printf("\t");
-       }  
-       printf("\n");
-    }
-    return 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*#include<stdio.h>
 int main()
 {
@@ -71,3 +32,28 @@ int main()
     }
     return 0;
 }*/
+
+#include<stdio.h>
+int main()
+{
+ 
+    int i,j,l;
+
+    for(i=1; i<=5; i++){
+      for(l=1; l<=3; l++){
+        if(l==1){
+            printf("\033[31m");
+        }else if(l==2){
+            printf("\033[32m");
+        }else if(l==3){
+            printf("\033[33m");
+        }
+        for(j=1; j<=i; j++){
+            printf("*");
+        }
+        printf("\t");
+       }  
+       printf("\n");
+    }
+    return 0;
+}
