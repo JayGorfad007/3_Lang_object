@@ -2,7 +2,7 @@
 
                                                     Author-:Jay Gorfad
                                                     Doc-:18-12 Oct 2025
-                                                    Objective-:To Create 
+                                                    Objective-:To Create Horizontal Vertical traingle
                                                     Lacture-:5
 
                                                   
