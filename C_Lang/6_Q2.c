@@ -1,7 +1,7 @@
 /*
 
                                                     Author-:Jay Gorfad
-                                                    Doc-:18-12 Oct 2025
+                                                    Doc-:24-12 Oct 2025
                                                     Objective-:To find length of strings without using strlen()
                                                     Lacture-:6 
 
