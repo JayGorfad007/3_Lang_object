@@ -1,30 +1,36 @@
-#include<stdio.h>
-#include<string.h>
+/*
+
+                                                    Author-:Jay Gorfad
+                                                    Doc-:18-12 Oct 2025
+                                                    Objective-:To use the string functions
+                                                    Lacture-:6 
+
+                                                  
+*/
+#include <stdio.h>
+
 int main()
 {
     char str1[30];
     char str2[30];
-    int len1=0,len2=0;
-    int i;
-    
-    printf("\nEnter the string1 : ");
-    fgets(str1, sizeof(str1), stdin);            //scanf("%[^\n]s",str1);                       //gets(str1);
+    int len1 = 0, len2 = 0, i;
 
-    printf("\nEnter the string2 : ");
-    fgets(str2, sizeof(str2), stdin);     //scanf("%[^\n]s",str2);                       //gets(str2);
-    
-    for(i=0; str1[i]!='\0'; i++)
-    {
+    printf("Enter the string1 : ");
+    scanf(" %[^\n]", str1);   // leading space IMPORTANT
+
+    printf("Enter the string2 : ");
+    scanf(" %[^\n]", str2);
+
+    for(i = 0; str1[i] != '\0'; i++){
         len1++;
     }
 
-    for(i=0; str2[i]!='\0'; i++)
-    {
+    for(i = 0; str2[i] != '\0'; i++){
         len2++;
     }
 
-    printf("\nThe lenght of string %s is %d",str1,str1);
-    printf("\nThe lenght of string %s is %d",str2,str2);
+    printf("\nThe length of string_1 \"%s\" is %d", str1, len1);
+    printf("\nThe length of string_2 \"%s\" is %d", str2, len2);
 
-    return 0;   
-} 
+    return 0;
+}
