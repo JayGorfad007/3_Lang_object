@@ -7,7 +7,7 @@
 */
 
 #include<stdio.h>
-
+#include<conio.h>
 int main()
 {
     char str1[30], str2[30], str3[30];
@@ -69,5 +69,5 @@ int main()
     else
         printf("\nStrings are EQUAL");
 
-    return 0;
+    getch();
 }
