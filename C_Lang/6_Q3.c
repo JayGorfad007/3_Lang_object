@@ -2,7 +2,8 @@
                                                                  Author    : Jay Gorfad
                                                                  Date      : 24-12 Oct 2025
                                                                  Objective : To Revers concate  length
-                                                                 Lecture   : 6
+                                                                 Lecture   : 6 
+                                                                 Teching Dhiraj Sir
 */
 
 #include<stdio.h>
@@ -12,9 +13,10 @@ int main()
     char str1[30];
     char str2[30];
     char str3[30];
-    int len1=0,len2=0;
+    int len1=0,len2=0; 
     int i;
     int j=0;
+    int flag=0;
 
     printf("Enter the string1 : ");
     scanf(" %[^\n]", str1);   // leading space IMPORTANT
@@ -52,5 +54,22 @@ int main()
 
     printf("\nThe concated string is %s",str1);
 
+    if(len1!=len2){
+        printf("\n%s and %s are Not equal",str1,str2);
+    }else{
+        for(i=0; i<len1 && j<len2;i++,j++){
+            if(str1[i]==str2[j]){
+                flag=-1;
+                break;
+            }else{
+                continue;
+            } //end of else
+        }//end of for
+    }//end of outer else
+    if(flag==-1){
+        printf("\n%s and %s are Not equal",str1,str2);
+    }else{
+        printf("\n%s and %s are equal",str1,str2);
+    }
     return 0;
 }
