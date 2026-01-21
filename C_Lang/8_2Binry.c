@@ -1,7 +1,7 @@
 /*
                                                                  Author    : Jay Gorfad
                                                                  Date      : 2-1-2026
-                                                                 Objective : To
+                                                                 Objective : To Binary Search Program
                                                                  Lecture   : 8
                                                                  
 */
