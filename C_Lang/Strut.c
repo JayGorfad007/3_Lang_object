@@ -1,3 +1,10 @@
+/*
+                                        Author    : Jay Gorfad
+                                        Date      : 5-1-2026
+                                        Program   : Customer Record Management System (CRUD)
+                                        Objective : To perform Add, Display, Search, Update and Delete operations on Customer Records using Structure.
+*/
+
 #include <stdio.h>
 #include <string.h>
 
