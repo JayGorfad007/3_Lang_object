@@ -1,9 +1,9 @@
 /*
-                                                                 Author    : Jay Gorfad
-                                                                 Date      : 5-1-2026
-                                                                 Objective : To Matrix Two Addition Program   : Addition of Two 3×3 Matrices
-                                                                 Lecture   : 9
-                                                               
+                                                        Author    : Jay Gorfad
+                                                        Date      : 5-1-2026
+                                                        Program   : Addition of Two 3×3 Matrices
+                                                        Objective : To add two matrices and store result in third matrix
+                                                        Lecture   : 9
 */
 #include<stdio.h>
 #define ROW 3
