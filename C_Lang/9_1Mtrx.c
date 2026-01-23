@@ -31,6 +31,7 @@ int main()
         }//end of inner for
     }//end of outer for 
 
+    
      for(i=0; i<ROW; i++){
         for(j=0; j<COL; j++){
             printf("%d ",a[i][j]);
