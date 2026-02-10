@@ -14,7 +14,7 @@ int main()
     int a[30][30], b[900];
     int i, j, k;
     int temp, exch = 1;
-    int SIZE;
+    int SIZE = ROW * COL;
 
     // ✅ Step-1: Input rows and columns
     printf("Enter number of Rows : ");
@@ -23,7 +23,7 @@ int main()
     printf("Enter number of Columns : ");
     scanf("%d", &COL); //3
 
-    SIZE = ROW * COL;
+    // SIZE = ROW * COL;
 
     // ✅ Step-2: Input Matrix
     printf("\nEnter Matrix Elements:\n");
@@ -70,8 +70,8 @@ int main()
     k = 0;
     for(i = 0; i < ROW; i++) {
         for(j = 0; j < COL; j++) {
-            a[i][j] = b[k];
-            k++;
+            a[i][j] = b[k++]; // k
+           // k++;
         }
     }
 
