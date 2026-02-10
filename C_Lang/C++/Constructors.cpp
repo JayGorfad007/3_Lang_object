@@ -3,9 +3,7 @@
                                              File Name    : CONSTRUC.CPP
                                              Author       : <Jay Gorfad>                                             
                                              DOc          :  4-2-26
-                                             Objective    : To demonstrate Default, Parameterized and Copy Constructor in C++
-
-                                             
+                                             Objective    : To demonstrate Default, Parameterized and Copy Constructor in C++                    
 */
 
 /* ✅ Theory / Text Section (Exactly image jevu) 
